@@ -1,0 +1,192 @@
+@media screen and (min-width: 900px) {
+body {
+        background-color: black;
+}
+h4 {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+    letter-spacing: 1px;
+    padding: 0 0 40px;
+    border-bottom: double #555;
+    text-align: center;
+    text-shadow: 3px 2px rgb(0, 128, 100);
+}
+table th {
+    color: rgb(231, 134, 55);
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;   
+}
+#selectMenu{
+    width: 30%; 
+}
+#select{
+    height: 45px;
+}
+#currentPriceDiv{
+    height: 45px;
+    width: 15%;
+    border-radius: 4px;
+    padding: 1px;
+       
+}
+#currentPrice{
+    text-align: left; 
+}
+#sellAmount{
+    width: 100%;
+}
+#amount{
+    width: 20%;
+    height: 45px;
+}
+#buyButton{
+    width: 250px;  
+    height: 45px;
+}
+#sellButton{
+    width: 250px;  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+}
+@media screen and (min-width:600px) and (max-width:899px){
+body {
+    background-color: black;
+}
+h4 {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 0 0 30px;
+    border-bottom: double #555;
+    text-align: center;
+    text-shadow: 3px 2px rgb(0, 128, 100);
+}
+table th {
+    color: rgb(231, 134, 55);
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;   
+}
+#selectMenu{
+    width: 30%; 
+}
+#select{
+    height: 30px;
+}
+#currentPriceDiv{
+    height: 30px;
+    width: 15%;
+    border-radius: 2px;
+    padding: 1px;
+       
+}
+#currentPrice{
+    text-align: left; 
+}
+#sellAmount{
+    width: 100%;
+}
+#amount{
+    width: 20%;
+    height: 30px;
+}
+#buyButton{
+    width: 150px;  
+    height: 30px;
+}
+#sellButton{
+    width: 150px;  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+}
+
+@media screen and (max-width:600px){
+    body {
+        background-color: black;
+    }
+    h4 {
+        color: white;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 10px;
+        font-weight: 20;
+        line-height: 10px;
+        letter-spacing: 1px;
+        padding: 0 0 10px;
+        border-bottom: double #555;
+        text-align: center;
+        text-shadow: 3px 2px rgb(0, 128, 100);
+    }
+    table th {
+        color: rgb(231, 134, 55);
+    }
+    #container{
+        display: flex;
+        justify-content: space-evenly;   
+    }
+    #selectMenu{
+        width: 30%; 
+    }
+    #select{
+        height: 15px;
+    }
+    #currentPriceDiv{
+        height: 15px;
+        width: 15%;
+        border-radius: 1px;
+        padding: 1px;
+           
+    }
+    #currentPrice{
+        text-align: left; 
+    }
+    #sellAmount{
+        width: 100%;
+    }
+    #amount{
+        width: 20%;
+        height:15px;
+    }
+    #buyButton{
+        width: 150px;  
+        height: 15px;
+    }
+    #sellButton{
+        width: 150px;  
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+    
+    input[type=number] {
+        -moz-appearance:textfield; /* Firefox */
+    }
+}
